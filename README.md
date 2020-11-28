@@ -15,53 +15,7 @@ The scenario we're following throughout this project is fictional — the main p
 Below, we're going to write two functions that we'll be using frequently:
 
 - `factorial()` — a function that calculates factorials
-To calculate factorials, this is the formula we learned we need to use:
 
-`n
-!
-=
-n
-×
-(
-n
-−
-1
-)
-×
-(
-n
-−
-2
-)
-×
-.
-.
-.
-×
-2
-×
-1
-`
+
 - `combinations()` — a function that calculates combinations
 
-To find the number of combinations when we're sampling without replacement and taking only k objects from a group of n objects, we can use the formula:
-
-`n
-C
-k
-=
-(
-n
-k
-)
-=
-n
-!/
-k
-!
-(
-n
-−
-k
-)
-!
